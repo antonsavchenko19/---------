@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Лаба 12</title>
+</head>
+<body>
+<form>
+    <fieldset><legend>Оформление заказа</legend>
+    <p><b>Введите контактные адреса доставки: </b></p>
+    <p>Контактное лицо: <input placeholder="Введите имя и фамилию"> Ваш адрес: <input placeholder="Введите ваш адрес"></p>
+    <p>Телефон: <input placeholder="Введите ваш телефон"> E-mail: <input placeholder="Ваш e-mail"></p>
+    <p><b>Выберите дату и время доставки</b></p>
+    <p>Дата доставки: <input type="date" name="delivery_date"> Время доставки: <input type="time" name="delivery_time"></p>
+    <p><b>Оплата: </b></p>
+    <p><input name="i" type="radio" checked>Наличными<input name="i" type="radio">По карте</p>
+    <p><b>Прочие параметры: </b></p>
+    <input type="checkbox" name="a" value="1">Домофон
+    <input type="checkbox" name="b" value="2">Неисправен домофон
+    <input type="checkbox" name="c" value="3">Собака во дворе
+    <input type="checkbox" name="d" value="4">Вход с заднего фасада
+    <input type="checkbox" name="e" value="5">Вход с торца здания
+    <p><input type="submit" value="Подтвердить"></p>
+</fieldset>
+</form>
+<br>
+<br>
+
+
+<form>
+    <fieldset><legend>Размещение вакансии</legend>
+    <p><b>Тип вакансии: </b> <input name="r" type="radio" checked>Открытая<input name="r" type="radio">Закрытая</p>
+    <p><b>Название вакансии: </b> <input placeholder="Введите название вакансии"></p>
+    <p><b>Профессиональная область: </b> <select name="grupp">
+      <optgroup label="Банки, инвестиции, лизинг"> 
+        <option>Валютный контроль</option>
+        <option>Кредиты</option>
+        <option>Безопасность</option>
+       </optgroup>
+      
+      <optgroup label="Административный персонал"> 
+        <option>Архивист</option>
+        <option>Водитель</option>
+        <option  disabled>Вечерний секретарь</option>
+      
+      </optgroup>
+      
+      <optgroup label="Высший менеджмент"  disabled> 
+        <option  disabled>Директор</option>
+        <option  disabled>Главный бухгалтер</option>
+      </p>
+      </optgroup>
+    </select>
+      <br>
+      
+<p><b>Предпологаемый уровень дохода: </b><input name="do" placeholder="Уровень дохода">
+
+<select name="09910">
+      <option>RUB</option>
+      <option>EUR</option>
+      <option>AZN</option>
+    </select>
+
+
+</p>
+
+<p><b>О вакансии: </b></p><br>
+  <textarea placeholder="Введите информацию о вакансии"></textarea>
+  <p><input type="submit"></p>
+  
+
+
+
+
+
+
+
+
+
+
+</fieldset>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</form>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+</body>
+</html>
